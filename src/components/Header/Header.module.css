@@ -1,0 +1,56 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.profileContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.stateContainer {
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+img.logoWH {
+  width: 85px;
+  height: 30px;
+}
+img.gitImg {
+  width: 30px;
+  height: 30px;
+}
+img.pIcon {
+  border: none;
+  display: none;
+}
+div.profileCard {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .stateContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .searchContainer {
+    width: 100%;
+  }
+  .stateContainer {
+    width: 100%;
+  }
+  .profileContainer {
+    display: none;
+  }
+}

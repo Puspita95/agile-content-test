@@ -1,0 +1,28 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.searchBtn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+.homeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 125px);
+}
+img.gLogo {
+  width: 300px !important;
+  height: 100px !important;
+  flex: 2 1 !important;
+  max-width: 100% !important;
+}
